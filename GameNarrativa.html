@@ -6,8 +6,8 @@
     <title>Scroll Vertical Animado</title>
     <style>
         .scroll-container {
-            width: 300px; /* Ancho del contenedor */
-            height: 200px; /* Altura del contenedor */
+            width: 350px; /* Ancho del contenedor */
+            height: 300px; /* Altura del contenedor */
             overflow: hidden; /* Ocultar el contenido que se desborda */
             position: relative;
             border: 1px solid #ccc; /* Borde alrededor del contenedor */
@@ -16,8 +16,8 @@
         .scroll-text {
             font-size: 28px; /* Tamaño de la fuente */
             position: absolute;
-            animation: scroll-up 10s linear infinite; /* Animación para mover el texto hacia arriba */
-            padding: 18px;
+            animation: scroll-up 40s linear infinite; /* Animación para mover el texto hacia arriba */
+            padding: 10px;
         }
 
         /* Definir la animación del scroll */
@@ -26,7 +26,7 @@
                 top: 100%; /* Comienza desde la parte inferior */
             }
             100% {
-                top: -100%; /* Termina en la parte superior */
+                top: -300%; /* Termina en la parte superior */
             }
         }
     </style>
